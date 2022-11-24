@@ -405,9 +405,44 @@ ul.showMenu li {
 
 @keyframes goUpLeft {
   0% {
-  transform: translate(220px, -280px);
+    transform: translate(220px, -280px);
     opacity: 0;
   }
 }
 
 /* carousel end */
+
+/* quick donate start */
+.quickDonate {
+  background: #62caf1;
+}
+.qd-title {
+  font-size: 27px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin: 0.67em 0;
+}
+.qd-input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 15px !important;
+  padding-top: 5px !important;
+  font-family: "Raleway", sans-serif;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+.qd-btn-donate {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 15px !important;
+  padding-top: 7px !important;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background: #c70000 !important;
+  color: #fff !important;
+  border: none !important;
+}
+/* quick donate end */
