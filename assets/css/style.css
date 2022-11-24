@@ -313,7 +313,7 @@ ul.showMenu li {
     visibility: visible;
     text-align: right;
   }
-  .smallLogo{
+  .smallLogo {
     display: block;
   }
   .subMenuContainer {
@@ -339,7 +339,9 @@ ul.showMenu li {
     margin-left: auto;
     margin-right: auto;
   }
-
+  .container-fluid {
+    max-width: 1170px;
+  }
   .header {
     position: relative !important;
     max-width: 1170px;
@@ -349,3 +351,63 @@ ul.showMenu li {
 }
 
 /* navbar end */
+
+/* carousel start */
+.carousel img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.animateToTop {
+  transform: translate(0, 0px);
+  opacity: 1;
+  animation: goUp 2s ease;
+}
+
+@keyframes goUp {
+  0% {
+    transform: translate(0, 48px);
+    opacity: 0;
+  }
+}
+
+.animateToLeft {
+  transform: translate(0, 0);
+  opacity: 1;
+  animation: goLeft 2s ease;
+}
+
+@keyframes goLeft {
+  0% {
+    transform: translate(180px, 0);
+    opacity: 0;
+  }
+}
+.animateToRight {
+  transform: translate(0, 0);
+  opacity: 1;
+  animation: goRight 2s ease;
+}
+
+@keyframes goRight {
+  0% {
+    transform: translate(-180px, 0);
+    opacity: 0;
+  }
+}
+.animateToUpLeft {
+  transform: translate(125px, -280px);
+
+  width: 525px;
+  opacity: 1;
+  animation: goUpLeft 1s ease;
+}
+
+@keyframes goUpLeft {
+  0% {
+  transform: translate(220px, -280px);
+    opacity: 0;
+  }
+}
+
+/* carousel end */
