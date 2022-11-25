@@ -522,13 +522,14 @@ ul.showMenu li {
 /* about start */
 .about {
   background: #ebebeb;
-  padding-top: 140px;}
+  padding-top: 140px;
+}
 .aboutInfoBg {
   box-sizing: border-box;
   padding-left: 15px;
   padding-right: 15px;
   width: 100%;
-  background-image: url('../images/about/about.jpg') !important;
+  background-image: url("../images/about/about.jpg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -602,7 +603,7 @@ ul.showMenu li {
 
 /*latest appeals start*/
 .latestAppeals {
-  background-image: url('../images/latestAppeals/bg.jpg') !important;
+  background-image: url("../images/latestAppeals/bg.jpg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -648,3 +649,30 @@ ul.showMenu li {
   position: absolute;
 }
 /*latest appeals end*/
+
+/* get involved start */
+.getInvolved {
+      background-image: url("../images/getInvolved/bg.jpg") !important;
+      padding: 60px;
+}
+.getInvolved h1 {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 0px;
+}
+.getInvolved p {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.getInvolved button {
+  background-color: #425864;
+  color: #ffffff;
+}
+
+/* get involved end */
