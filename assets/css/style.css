@@ -599,6 +599,9 @@ ul.showMenu li {
   text-decoration: none;
   color: #404040;
 }
+
+
+
 /* about end */
 
 /*latest appeals start*/
@@ -715,3 +718,43 @@ ul.showMenu li {
   padding: 13px 0;
 }
 /* newsletter end */
+
+/* footer start */
+.footer {
+  background: #363636;
+  color: #949494;
+  font-family: "Raleway", sans-serif;
+  padding: 50px;
+  padding-right: 50px;
+  font-size: 16px;
+}
+footer .socialLinks a {
+  color: #00adee;
+}
+footer .socialLinks a:hover {
+  color: #425864 !important;
+}
+footer h4 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.footer ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  line-height: 32px;
+}
+.footer ul li a {
+  padding-left: 10px;
+  color: #949494 !important;
+  text-decoration: none;
+}
+.footer ul li a::before {
+  font-family: FontAwesome;
+  content: "\f054";
+  font-size: 11px;
+  padding-right: 8px;
+}
+/* footer end */
