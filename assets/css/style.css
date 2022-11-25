@@ -652,8 +652,8 @@ ul.showMenu li {
 
 /* get involved start */
 .getInvolved {
-      background-image: url("../images/getInvolved/bg.jpg") !important;
-      padding: 60px;
+  background-image: url("../images/getInvolved/bg.jpg") !important;
+  padding: 60px;
 }
 .getInvolved h1 {
   font-weight: 600;
@@ -676,3 +676,42 @@ ul.showMenu li {
 }
 
 /* get involved end */
+
+/* newsletter start */
+.newsLetter {
+  background: #012d52;
+  padding: 30px 50px 30px 50px;
+  color: #fff;
+}
+.newsLetter h1 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin-bottom: 5px;
+  color: white;
+}
+.newsLetter p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+.newsLetter input {
+  width: 79%;
+  height: 50px;
+  padding-left: 20px !important;
+  padding-right: 16px !important;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 3px;
+}
+.newsLetter button {
+  background: #00adee;
+  border: none;
+  margin-left: -8px;
+  border-radius: 0;
+  width: 10%;
+  padding: 13px 0;
+}
+/* newsletter end */
