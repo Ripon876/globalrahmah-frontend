@@ -522,15 +522,13 @@ ul.showMenu li {
 /* about start */
 .about {
   background: #ebebeb;
-  padding-top: 140px;
-  padding-bottom: 140px;
-}
+  padding-top: 140px;}
 .aboutInfoBg {
   box-sizing: border-box;
   padding-left: 15px;
   padding-right: 15px;
   width: 100%;
-  background-image: url(https://www.globalrahmah.org/wp-content/uploads/2020/09/why-image-1.jpg?id=24) !important;
+  background-image: url('../images/about/about.jpg') !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -601,3 +599,52 @@ ul.showMenu li {
   color: #404040;
 }
 /* about end */
+
+/*latest appeals start*/
+.latestAppeals {
+  background-image: url('../images/latestAppeals/bg.jpg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.latestAppeals h1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+.latestAppeals h1 span.lpSp2 {
+  color: #0eace5 !important;
+}
+.latestAppeals h3.subT {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #8d8d8d;
+}
+.owl-prev {
+  background: #000 !important;
+  padding: 3px 10px !important;
+  width: 18px;
+  height: 25px;
+  color: white !important;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -15px;
+  margin-top: 0;
+  position: absolute;
+}
+.owl-next {
+  background: #000 !important;
+  padding: 3px 10px !important;
+  width: 18px;
+  height: 25px;
+  color: white !important;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 0;
+  right: -15px;
+  position: absolute;
+}
+/*latest appeals end*/
