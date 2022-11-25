@@ -41,3 +41,16 @@ $(".owl-carousel").owlCarousel({
 		},
 	},
 });
+
+
+// sticky navbar 
+
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+
+    if(height  > 100) {
+      $('.header').addClass('sticky-top')
+    }else{
+    	$('.header').removeClass('sticky-top')
+    }
+});
