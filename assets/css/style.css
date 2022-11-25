@@ -600,6 +600,15 @@ ul.showMenu li {
   color: #404040;
 }
 
+@media screen and (max-width: 769px) {
+  .aboutInfoBg .infoContainer .info {
+    transform: translate3d(0, 0, 0);
+  }
+  .info2{
+    margin-left: 0;
+  }
+}
+
 /* about end */
 
 /*latest appeals start*/
