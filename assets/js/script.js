@@ -54,10 +54,15 @@ $(window).scroll(function () {
 	}
 });
 
+
+
 //  mobile menu
 $(window).resize(function () {
 	if (document.documentElement.clientWidth >= 992) {
 		$(".navLinksContainer nav ul.navLinks").removeClass("showMenu");
+	}
+	if (document.documentElement.clientWidth >= 768) {
+		$(".quickDonate").removeClass("sticky-bottom position-fixed");
 	}
 });
 
@@ -72,11 +77,14 @@ $(document).ready(function () {
 	}
 
 	// check and add sticky class in donate form
+
+if ((document.documentElement.clientWidth >= 768)) {
 	if (height > 688) {
 		$(".quickDonate").addClass("sticky-bottom position-fixed");
 	} else {
-		$(".header").removeClass("sticky-bottom position-fixed");
+		$(".quickDonate").removeClass("sticky-bottom position-fixed");
 	}
+}
 });
 
 //  sticky donate form
@@ -84,9 +92,9 @@ $(document).ready(function () {
 $(window).scroll(function () {
 	var height = $(window).scrollTop();
 
-	if (height > 688) {
+
+	if (height > 688 && (document.documentElement.clientWidth >= 768)) {
 		$(".quickDonate").addClass("sticky-bottom position-fixed");
-	
 	} else {
 		$(".quickDonate").removeClass("sticky-bottom position-fixed");
 	}
