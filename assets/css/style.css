@@ -600,8 +600,6 @@ ul.showMenu li {
   color: #404040;
 }
 
-
-
 /* about end */
 
 /*latest appeals start*/
@@ -655,8 +653,10 @@ ul.showMenu li {
 
 /* get involved start */
 .getInvolved {
-  background-image: url("../images/getInvolved/bg.jpg") !important;
+  background-image: url(../images/getInvolved/bg.jpg) !important;
   padding: 60px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 .getInvolved h1 {
   font-weight: 600;
